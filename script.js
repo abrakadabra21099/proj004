@@ -1,3 +1,5 @@
+"use strict";
+
 function a() {
     // do something
     setTimeout( function() 
@@ -19,3 +21,4 @@ function c(lang, cb) {
 }
 
 c('JS', function() {console.log('Done!')});
+
